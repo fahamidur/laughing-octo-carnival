@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css"> <!-- Link to your external CSS file -->
+    <title>Your Page Title</title>
+</head>
+<body>
+    <div class="container">
+        <img src="/static/images/text summarization.png" alt="Your Logo" width="407" height="168">
+
+        <p>For examples on how to use this, visit the <a href="https://huggingface.co/google/flan-t5-large?text=Translate+to+German%3A++My+name+is+Arthur" target="_blank">flatan-t5-large</a> page. 
+        click on the example dropdown in right handside</p>
+
+        
+        <input type="text" id="textbox" placeholder="Paste your text here">
+        
+        <button id="button" onclick="submitText()">Submit</button>
+        
+        <!-- Add a div to display the entered text -->
+        <div id="result"></div>
+        
+        <!-- Placeholder message initially hidden -->
+        <p id="wait-message" style="display: none;">Please wait...</p>
+    </div>
+
+    <script src="./static/script.js"></script>
+    <!-- Link to your external JavaScript file -->
+</body>
+</html>
