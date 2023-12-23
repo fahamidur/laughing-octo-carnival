@@ -1,6 +1,6 @@
 # Flask Text Summarizer
 
-In this project I have utilized the [google/flan-t5-large]([https://textsummarizer-yd7x.onrender.com/](https://huggingface.co/google/flan-t5-large?text=Translate+to+German%3A++My+name+is+Arthur)) model from google that is avilable in hugging face. this website makes a call in to the model to send the text from the website to the model's api endpoint and captures the response and show in the website.
+In this project I have utilized the [google/flan-t5-large](https://huggingface.co/google/flan-t5-large?text=Translate+to+German%3A++My+name+is+Arthur)) model from google that is avilable in hugging face. this website makes a call in to the model to send the text from the website to the model's api endpoint and captures the response and show in the website.
 
 # Objective
 - Applying skill to work with api
