@@ -1,4 +1,4 @@
-# Flask Notes App Tutorial
+# Flask Text Summarizer
 
 Welcome to the Simple flask app with login! Follow these steps to set up, install dependencies, run the app, and view it in your browser.
 
